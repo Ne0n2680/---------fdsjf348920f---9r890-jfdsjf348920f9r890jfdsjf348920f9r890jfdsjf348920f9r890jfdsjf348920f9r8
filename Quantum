@@ -1,0 +1,1400 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local QuantomX = Instance.new("ScreenGui")
+local CommandBarLOLXD = Instance.new("Frame")
+local CommandBarLOLXD_2 = Instance.new("TextLabel")
+local CommandBarDisplayInput = Instance.new("TextLabel")
+local NotifictionBoxLOLXD = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local CommandBarDisplayInput_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local CommandBarDisplayInput_3 = Instance.new("TextLabel")
+local CommandBarDisplayInput_4 = Instance.new("TextLabel")
+local CmdConnectionBoxLOLXD = Instance.new("Frame")
+ TextLabel = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextButton_2 = Instance.new("TextButton")
+local CmdBack = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+ TextLabel_2 = Instance.new("TextLabel")
+ TextLabel_3 = Instance.new("TextLabel")
+ TextLabel_4 = Instance.new("TextLabel")
+local UIListLayout = Instance.new("UIListLayout")
+ TextLabel_5 = Instance.new("TextLabel")
+ TextLabel_6 = Instance.new("TextLabel")
+ TextLabel_7 = Instance.new("TextLabel")
+ TextLabel_8 = Instance.new("TextLabel")
+ TextLabel_9 = Instance.new("TextLabel")
+ TextLabel_10 = Instance.new("TextLabel")
+ TextLabel_11 = Instance.new("TextLabel")
+ TextLabel_12 = Instance.new("TextLabel")
+ TextLabel_13 = Instance.new("TextLabel")
+ TextLabel_14 = Instance.new("TextLabel")
+ TextLabel_15 = Instance.new("TextLabel")
+ TextLabel_16 = Instance.new("TextLabel")
+ TextLabel_17 = Instance.new("TextLabel")
+ TextLabel_18 = Instance.new("TextLabel")
+ TextLabel_19 = Instance.new("TextLabel")
+ TextLabel_20 = Instance.new("TextLabel")
+ TextLabel_21 = Instance.new("TextLabel")
+ TextLabel_22 = Instance.new("TextLabel")
+ TextLabel_23 = Instance.new("TextLabel")
+ TextLabel_24 = Instance.new("TextLabel")
+ TextLabel_25 = Instance.new("TextLabel")
+ TextLabel_26 = Instance.new("TextLabel")
+ TextLabel_27 = Instance.new("TextLabel")
+ TextLabel_28 = Instance.new("TextLabel")
+ TextLabel_29 = Instance.new("TextLabel")
+ TextLabel_30 = Instance.new("TextLabel")
+ TextLabel_31 = Instance.new("TextLabel")
+ TextLabel_32 = Instance.new("TextLabel")
+ TextLabel_33 = Instance.new("TextLabel")
+ TextLabel_34 = Instance.new("TextLabel")
+ TextLabel_35 = Instance.new("TextLabel")
+ TextLabel_36 = Instance.new("TextLabel")
+ TextLabel_37 = Instance.new("TextLabel")
+ TextLabel_38 = Instance.new("TextLabel")
+ TextLabel_39 = Instance.new("TextLabel")
+ TextLabel_40 = Instance.new("TextLabel")
+ TextLabel_41 = Instance.new("TextLabel")
+ TextLabel_42 = Instance.new("TextLabel")
+ TextLabel_43 = Instance.new("TextLabel")
+ TextLabel_44 = Instance.new("TextLabel")
+ TextLabel_45 = Instance.new("TextLabel")
+ TextLabel_46 = Instance.new("TextLabel")
+ TextLabel_47 = Instance.new("TextLabel")
+ TextLabel_48 = Instance.new("TextLabel")
+ TextLabel_49 = Instance.new("TextLabel")
+ TextLabel_50 = Instance.new("TextLabel")
+ TextLabel_51 = Instance.new("TextLabel")
+ TextLabel_52 = Instance.new("TextLabel")
+ TextLabel_53 = Instance.new("TextLabel")
+ TextLabel_54 = Instance.new("TextLabel")
+ TextLabel_55 = Instance.new("TextLabel")
+ TextLabel_56 = Instance.new("TextLabel")
+ TextLabel_57 = Instance.new("TextLabel")
+ TextLabel_58 = Instance.new("TextLabel")
+ TextLabel_59 = Instance.new("TextLabel")
+ TextLabel_60 = Instance.new("TextLabel")
+ TextLabel_61 = Instance.new("TextLabel")
+ TextLabel_62 = Instance.new("TextLabel")
+ TextLabel_63 = Instance.new("TextLabel")
+ TextLabel_64 = Instance.new("TextLabel")
+ TextLabel_65 = Instance.new("TextLabel")
+ TextLabel_66 = Instance.new("TextLabel")
+ TextLabel_67 = Instance.new("TextLabel")
+ TextLabel_68 = Instance.new("TextLabel")
+ TextLabel_69 = Instance.new("TextLabel")
+ TextLabel_70 = Instance.new("TextLabel")
+ TextLabel_71 = Instance.new("TextLabel")
+ TextLabel_72 = Instance.new("TextLabel")
+ TextLabel_73 = Instance.new("TextLabel")
+ TextLabel_74 = Instance.new("TextLabel")
+ TextLabel_75 = Instance.new("TextLabel")
+ TextLabel_76 = Instance.new("TextLabel")
+ TextLabel_77 = Instance.new("TextLabel")
+ TextLabel_78 = Instance.new("TextLabel")
+ TextLabel_79 = Instance.new("TextLabel")
+ TextLabel_80 = Instance.new("TextLabel")
+ TextLabel_81 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local OpenClsoseSequnceFolder = Instance.new("Folder")
+local Frame1 = Instance.new("Frame")
+local CommandBarLOLXD_3 = Instance.new("TextLabel")
+local CommandBarDisplayInput_5 = Instance.new("TextLabel")
+local Frame2 = Instance.new("Frame")
+local CommandBarLOLXD_4 = Instance.new("TextLabel")
+local CommandBarDisplayInput_6 = Instance.new("TextLabel")
+local Frame3 = Instance.new("Frame")
+local CommandBarLOLXD_5 = Instance.new("TextLabel")
+local CommandBarDisplayInput_7 = Instance.new("TextLabel")
+
+--Properties:
+
+QuantomX.Name = "QuantomX"
+QuantomX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+QuantomX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+CommandBarLOLXD.Name = "CommandBarLOLXD"
+CommandBarLOLXD.Parent = QuantomX
+CommandBarLOLXD.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+CommandBarLOLXD.BackgroundTransparency = 0.400
+CommandBarLOLXD.BorderSizePixel = 0
+CommandBarLOLXD.Size = UDim2.new(1, 0, 0.0572831407, 0)
+CommandBarLOLXD.Visible = false
+
+CommandBarLOLXD_2.Name = "CommandBarLOLXD"
+CommandBarLOLXD_2.Parent = CommandBarLOLXD
+CommandBarLOLXD_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarLOLXD_2.BackgroundTransparency = 1.000
+CommandBarLOLXD_2.Position = UDim2.new(0.0460218415, 0, -0.326086938, 0)
+CommandBarLOLXD_2.Size = UDim2.new(0.898595929, 0, 1.60869563, 0)
+CommandBarLOLXD_2.Font = Enum.Font.SourceSans
+CommandBarLOLXD_2.Text = "Welcome to Quantum X admin, thank you for using."
+CommandBarLOLXD_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarLOLXD_2.TextSize = 30.000
+CommandBarLOLXD_2.TextXAlignment = Enum.TextXAlignment.Left
+
+CommandBarDisplayInput.Name = "CommandBarDisplayInput"
+CommandBarDisplayInput.Parent = CommandBarLOLXD
+CommandBarDisplayInput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput.BackgroundTransparency = 1.000
+CommandBarDisplayInput.Position = UDim2.new(0.0226209015, 0, -0.054641597, 0)
+CommandBarDisplayInput.Size = UDim2.new(0.041341655, 0, 1.10869563, 0)
+CommandBarDisplayInput.Font = Enum.Font.SourceSans
+CommandBarDisplayInput.Text = ":"
+CommandBarDisplayInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput.TextSize = 30.000
+CommandBarDisplayInput.TextWrapped = true
+
+NotifictionBoxLOLXD.Name = "NotifictionBoxLOLXD"
+NotifictionBoxLOLXD.Parent = QuantomX
+NotifictionBoxLOLXD.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+NotifictionBoxLOLXD.BackgroundTransparency = 0.400
+NotifictionBoxLOLXD.BorderSizePixel = 0
+NotifictionBoxLOLXD.Position = UDim2.new(-9.85929146e-05, 0, -0.000668287277, 0)
+NotifictionBoxLOLXD.Size = UDim2.new(0.206026837, 0, 0.110324591, 0)
+NotifictionBoxLOLXD.Visible = false
+
+Frame.Parent = NotifictionBoxLOLXD
+Frame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame.BackgroundTransparency = 0.400
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-8.0860209e-06, 0, -0.0266775452, 0)
+Frame.Size = UDim2.new(0.996236265, 0, 0.279930025, 0)
+
+CommandBarDisplayInput_2.Name = "CommandBarDisplayInput"
+CommandBarDisplayInput_2.Parent = Frame
+CommandBarDisplayInput_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_2.BackgroundTransparency = 1.000
+CommandBarDisplayInput_2.Position = UDim2.new(-0.00214691251, 0, 0.085061267, 0)
+CommandBarDisplayInput_2.Size = UDim2.new(0.534677744, 0, 0.761268139, 0)
+CommandBarDisplayInput_2.Font = Enum.Font.SourceSans
+CommandBarDisplayInput_2.Text = "Quantom X admin"
+CommandBarDisplayInput_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_2.TextScaled = true
+CommandBarDisplayInput_2.TextSize = 30.000
+CommandBarDisplayInput_2.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.929585695, 0, 0.29335162, 0)
+TextButton.Size = UDim2.new(0.0431805179, 0, 0.499891281, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel.Position = UDim2.new(-0.00173038116, 0, -0.0321297348, 0)
+ImageLabel.Size = UDim2.new(0.0678550974, 0, 0.958124876, 0)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7204423987"
+
+CommandBarDisplayInput_3.Name = "CommandBarDisplayInput"
+CommandBarDisplayInput_3.Parent = NotifictionBoxLOLXD
+CommandBarDisplayInput_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_3.BackgroundTransparency = 1.000
+CommandBarDisplayInput_3.Position = UDim2.new(0.0441179276, 0, 0.318399519, 0)
+CommandBarDisplayInput_3.Size = UDim2.new(0.884255111, 0, 0.32676214, 0)
+CommandBarDisplayInput_3.Font = Enum.Font.SourceSans
+CommandBarDisplayInput_3.Text = "WARNING : YOU HAVE BEEN RANKED TO ADMIN"
+CommandBarDisplayInput_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_3.TextScaled = true
+CommandBarDisplayInput_3.TextSize = 30.000
+CommandBarDisplayInput_3.TextWrapped = true
+
+CommandBarDisplayInput_4.Name = "CommandBarDisplayInput"
+CommandBarDisplayInput_4.Parent = NotifictionBoxLOLXD
+CommandBarDisplayInput_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_4.BackgroundTransparency = 1.000
+CommandBarDisplayInput_4.Position = UDim2.new(0.0441179276, 0, 0.679975569, 0)
+CommandBarDisplayInput_4.Size = UDim2.new(0.884255111, 0, 0.215050325, 0)
+CommandBarDisplayInput_4.Font = Enum.Font.SourceSans
+CommandBarDisplayInput_4.Text = "Prefix  = ;"
+CommandBarDisplayInput_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_4.TextScaled = true
+CommandBarDisplayInput_4.TextSize = 30.000
+CommandBarDisplayInput_4.TextWrapped = true
+
+CmdConnectionBoxLOLXD.Name = "CmdConnectionBoxLOLXD"
+CmdConnectionBoxLOLXD.Parent = QuantomX
+CmdConnectionBoxLOLXD.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+CmdConnectionBoxLOLXD.BackgroundTransparency = 0.400
+CmdConnectionBoxLOLXD.Position = UDim2.new(0.366432071, 0, 0.309328973, 0)
+CmdConnectionBoxLOLXD.Size = UDim2.new(0.215471223, 0, 0.508539379, 0)
+CmdConnectionBoxLOLXD.Visible = false
+
+TextLabel.Parent = CmdConnectionBoxLOLXD
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.124676317, 0, 0.0300741456, 0)
+TextLabel.Size = UDim2.new(0.333333343, 0, 0.0573867671, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Quantum X cmds"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 40.000
+TextLabel.TextWrapped = true
+
+Frame_2.Parent = CmdConnectionBoxLOLXD
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 0.400
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.00212447718, 0, 0.119157568, 0)
+Frame_2.Size = UDim2.new(1, 0, 0.00604071142, 0)
+
+ImageLabel_2.Parent = CmdConnectionBoxLOLXD
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel_2.Position = UDim2.new(0.0199431293, 0, 0.0119520677, 0)
+ImageLabel_2.Size = UDim2.new(0.0854700878, 0, 0.0936310291, 0)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=7204423987"
+
+TextButton_2.Parent = CmdConnectionBoxLOLXD
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.914530039, 0, 0.0273803808, 0)
+TextButton_2.Size = UDim2.new(0.0569800548, 0, 0.0573867671, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+CmdBack.Name = "CmdBack"
+CmdBack.Parent = CmdConnectionBoxLOLXD
+CmdBack.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CmdBack.BackgroundTransparency = 1.000
+CmdBack.Position = UDim2.new(-0.00313081429, 0, 0.246833965, 0)
+CmdBack.Size = UDim2.new(1.00313079, 0, 0.756121457, 0)
+
+ScrollingFrame.Parent = CmdBack
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, -0.0186072104, 0)
+ScrollingFrame.Size = UDim2.new(1, 0, 1.00200617, 0)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 500, 0)
+ScrollingFrame.ScrollBarThickness = 0
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.215988964, 0, -0.0236307289, 0)
+TextLabel_2.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "speed [\"Amount\"]"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 12.000
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.215988964, 0, 0.164481267, 0)
+TextLabel_3.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "jumppower [\"Player username\"] [\"Amount\"]"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 12.000
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.215988964, 0, 0.352593392, 0)
+TextLabel_4.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "hipheight [\"Player username\"] [\"Amount\"]"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 12.000
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.215988964, 0, 0.540705264, 0)
+TextLabel_5.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_5.Font = Enum.Font.GothamSemibold
+TextLabel_5.Text = "kill [\"Player username\"]"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 12.000
+
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.215988964, 0, 0.728817165, 0)
+TextLabel_6.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "kill2 [\"Player username\"]"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 12.000
+
+TextLabel_7.Parent = ScrollingFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.215988964, 0, 0.916929007, 0)
+TextLabel_7.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_7.Font = Enum.Font.GothamSemibold
+TextLabel_7.Text = "loopkill [\"Player username\"]"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 12.000
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.215988964, 0, 1.10504138, 0)
+TextLabel_8.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_8.Font = Enum.Font.GothamSemibold
+TextLabel_8.Text = "unloopkill [\"Player username\"]"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 12.000
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.215988964, 0, 1.29315329, 0)
+TextLabel_9.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_9.Font = Enum.Font.GothamSemibold
+TextLabel_9.Text = "bring [\"Player username\"]"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 12.000
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.215988964, 0, 1.48126507, 0)
+TextLabel_10.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_10.Font = Enum.Font.GothamSemibold
+TextLabel_10.Text = "rocket [\"Player username\"]"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 12.000
+
+TextLabel_11.Parent = ScrollingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.215988964, 0, 1.66937721, 0)
+TextLabel_11.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_11.Font = Enum.Font.GothamSemibold
+TextLabel_11.Text = "bring2 [\"Player username\"]"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 12.000
+
+TextLabel_12.Parent = ScrollingFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.215988964, 0, 1.85748911, 0)
+TextLabel_12.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_12.Font = Enum.Font.GothamSemibold
+TextLabel_12.Text = "void [\"Player username\"]"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 12.000
+
+TextLabel_13.Parent = ScrollingFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.215988964, 0, 2.04560089, 0)
+TextLabel_13.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_13.Font = Enum.Font.GothamSemibold
+TextLabel_13.Text = "cannon  [\"Player username\"]"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 12.000
+
+TextLabel_14.Parent = ScrollingFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.215988964, 0, 2.23371315, 0)
+TextLabel_14.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_14.Font = Enum.Font.GothamSemibold
+TextLabel_14.Text = "view [\"Player username\"]"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 12.000
+
+TextLabel_15.Parent = ScrollingFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.215988964, 0, 2.42182541, 0)
+TextLabel_15.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_15.Font = Enum.Font.GothamSemibold
+TextLabel_15.Text = "unview [\"Player username\"]"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 12.000
+
+TextLabel_16.Parent = ScrollingFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.215988964, 0, 2.60993695, 0)
+TextLabel_16.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_16.Font = Enum.Font.GothamSemibold
+TextLabel_16.Text = "invisible "
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 12.000
+
+TextLabel_17.Parent = ScrollingFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.215988964, 0, 2.79804921, 0)
+TextLabel_17.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_17.Font = Enum.Font.GothamSemibold
+TextLabel_17.Text = "visible"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 12.000
+
+TextLabel_18.Parent = ScrollingFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.215988964, 0, 2.98616099, 0)
+TextLabel_18.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_18.Font = Enum.Font.GothamSemibold
+TextLabel_18.Text = "savetools "
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 12.000
+
+TextLabel_19.Parent = ScrollingFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.215988964, 0, 3.17427301, 0)
+TextLabel_19.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_19.Font = Enum.Font.GothamSemibold
+TextLabel_19.Text = "givetool [\"Player username\"]"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 12.000
+
+TextLabel_20.Parent = ScrollingFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.215988964, 0, 3.36238527, 0)
+TextLabel_20.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_20.Font = Enum.Font.GothamSemibold
+TextLabel_20.Text = "givetools [\"Player username\"]"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 12.000
+
+TextLabel_21.Parent = ScrollingFrame
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.215988964, 0, 3.55049729, 0)
+TextLabel_21.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_21.Font = Enum.Font.GothamSemibold
+TextLabel_21.Text = "grabtools "
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 12.000
+
+TextLabel_22.Parent = ScrollingFrame
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.215988964, 0, 3.73860908, 0)
+TextLabel_22.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_22.Font = Enum.Font.GothamSemibold
+TextLabel_22.Text = "droptools"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 12.000
+
+TextLabel_23.Parent = ScrollingFrame
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.215988964, 0, 3.92672086, 0)
+TextLabel_23.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_23.Font = Enum.Font.GothamSemibold
+TextLabel_23.Text = "nohats [\"Player username\"]"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 12.000
+
+TextLabel_24.Parent = ScrollingFrame
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0.215988964, 0, 4.11483288, 0)
+TextLabel_24.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_24.Font = Enum.Font.GothamSemibold
+TextLabel_24.Text = "clearhats [\"Player username\"]"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 12.000
+
+TextLabel_25.Parent = ScrollingFrame
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(0.215988964, 0, 4.30294466, 0)
+TextLabel_25.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_25.Font = Enum.Font.GothamSemibold
+TextLabel_25.Text = "gravity "
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 12.000
+
+TextLabel_26.Parent = ScrollingFrame
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0.215988964, 0, 4.49105692, 0)
+TextLabel_26.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_26.Font = Enum.Font.GothamSemibold
+TextLabel_26.Text = "nogravity "
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 12.000
+
+TextLabel_27.Parent = ScrollingFrame
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0.215988964, 0, 4.67916918, 0)
+TextLabel_27.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_27.Font = Enum.Font.GothamSemibold
+TextLabel_27.Text = "chatmute [\"Player username\"]"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 12.000
+
+TextLabel_28.Parent = ScrollingFrame
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(0.215988964, 0, 4.86728048, 0)
+TextLabel_28.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_28.Font = Enum.Font.GothamSemibold
+TextLabel_28.Text = "chatmute [\"Player username\"]"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 12.000
+
+TextLabel_29.Parent = ScrollingFrame
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(0.215988964, 0, 5.05539274, 0)
+TextLabel_29.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_29.Font = Enum.Font.GothamSemibold
+TextLabel_29.Text = "unchatmute [\"Player username\"]"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextSize = 12.000
+
+TextLabel_30.Parent = ScrollingFrame
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(0.215988964, 0, 5.24350548, 0)
+TextLabel_30.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_30.Font = Enum.Font.GothamSemibold
+TextLabel_30.Text = "kick [\"Player username\"]"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextSize = 12.000
+
+TextLabel_31.Parent = ScrollingFrame
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.Position = UDim2.new(0.215988964, 0, 5.43161678, 0)
+TextLabel_31.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_31.Font = Enum.Font.GothamSemibold
+TextLabel_31.Text = "sit "
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextSize = 12.000
+
+TextLabel_32.Parent = ScrollingFrame
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.Position = UDim2.new(0.215988964, 0, 5.61972904, 0)
+TextLabel_32.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_32.Font = Enum.Font.GothamSemibold
+TextLabel_32.Text = "infinitejump "
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextSize = 12.000
+
+TextLabel_33.Parent = ScrollingFrame
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 1.000
+TextLabel_33.Position = UDim2.new(0.215988964, 0, 5.80784035, 0)
+TextLabel_33.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_33.Font = Enum.Font.GothamSemibold
+TextLabel_33.Text = "noinfinitejump"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.TextSize = 12.000
+
+TextLabel_34.Parent = ScrollingFrame
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 1.000
+TextLabel_34.Position = UDim2.new(0.215988964, 0, 5.99595261, 0)
+TextLabel_34.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_34.Font = Enum.Font.GothamSemibold
+TextLabel_34.Text = "headsit [\"Player username\"]"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.TextSize = 12.000
+
+TextLabel_35.Parent = ScrollingFrame
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 1.000
+TextLabel_35.Position = UDim2.new(0.215988964, 0, 6.18406534, 0)
+TextLabel_35.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_35.Font = Enum.Font.GothamSemibold
+TextLabel_35.Text = "unheadsit [\"Player username\"]"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextSize = 12.000
+
+TextLabel_36.Parent = ScrollingFrame
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.BackgroundTransparency = 1.000
+TextLabel_36.Position = UDim2.new(0.215988964, 0, 6.3721776, 0)
+TextLabel_36.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_36.Font = Enum.Font.GothamSemibold
+TextLabel_36.Text = "headstand [\"Player username\"]"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.TextSize = 12.000
+
+TextLabel_37.Parent = ScrollingFrame
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BackgroundTransparency = 1.000
+TextLabel_37.Position = UDim2.new(0.215988964, 0, 6.56028891, 0)
+TextLabel_37.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_37.Font = Enum.Font.GothamSemibold
+TextLabel_37.Text = "unheadstand [\"Player username\"]"
+TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.TextSize = 12.000
+
+TextLabel_38.Parent = ScrollingFrame
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 1.000
+TextLabel_38.Position = UDim2.new(0.215988964, 0, 6.74840117, 0)
+TextLabel_38.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_38.Font = Enum.Font.GothamSemibold
+TextLabel_38.Text = "Setspawn"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextSize = 12.000
+
+TextLabel_39.Parent = ScrollingFrame
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 1.000
+TextLabel_39.Position = UDim2.new(0.215988964, 0, 6.93651342, 0)
+TextLabel_39.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_39.Font = Enum.Font.GothamSemibold
+TextLabel_39.Text = "Removespan"
+TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.TextSize = 12.000
+
+TextLabel_40.Parent = ScrollingFrame
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 1.000
+TextLabel_40.Position = UDim2.new(0.215988964, 0, 7.12462521, 0)
+TextLabel_40.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_40.Font = Enum.Font.GothamSemibold
+TextLabel_40.Text = "displaynames"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextSize = 12.000
+
+TextLabel_41.Parent = ScrollingFrame
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 1.000
+TextLabel_41.Position = UDim2.new(0.215988964, 0, 7.31273746, 0)
+TextLabel_41.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_41.Font = Enum.Font.GothamSemibold
+TextLabel_41.Text = "Time [\"Amount\"]"
+TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.TextSize = 12.000
+
+TextLabel_42.Parent = ScrollingFrame
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 1.000
+TextLabel_42.Position = UDim2.new(0.215988964, 0, 7.50084877, 0)
+TextLabel_42.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_42.Font = Enum.Font.GothamSemibold
+TextLabel_42.Text = "fling [\"Player username\"]"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.TextSize = 12.000
+
+TextLabel_43.Parent = ScrollingFrame
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.BackgroundTransparency = 1.000
+TextLabel_43.Position = UDim2.new(0.215988964, 0, 7.68896103, 0)
+TextLabel_43.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_43.Font = Enum.Font.GothamSemibold
+TextLabel_43.Text = "fling2 [\"Player username\"]"
+TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.TextSize = 12.000
+
+TextLabel_44.Parent = ScrollingFrame
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.BackgroundTransparency = 1.000
+TextLabel_44.Position = UDim2.new(0.215988964, 0, 7.87707233, 0)
+TextLabel_44.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_44.Font = Enum.Font.GothamSemibold
+TextLabel_44.Text = "control [\"Player username\"]"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.TextSize = 12.000
+
+TextLabel_45.Parent = ScrollingFrame
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.BackgroundTransparency = 1.000
+TextLabel_45.Position = UDim2.new(0.215988964, 0, 8.06518555, 0)
+TextLabel_45.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_45.Font = Enum.Font.GothamSemibold
+TextLabel_45.Text = "muteboombox [\"Player username\"]"
+TextLabel_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.TextSize = 12.000
+
+TextLabel_46.Parent = ScrollingFrame
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.BackgroundTransparency = 1.000
+TextLabel_46.Position = UDim2.new(0.215988964, 0, 8.2532959, 0)
+TextLabel_46.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_46.Font = Enum.Font.GothamSemibold
+TextLabel_46.Text = "walkto [\"Player username\"]"
+TextLabel_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.TextSize = 12.000
+
+TextLabel_47.Parent = ScrollingFrame
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.BackgroundTransparency = 1.000
+TextLabel_47.Position = UDim2.new(0.215988964, 0, 8.44140816, 0)
+TextLabel_47.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_47.Font = Enum.Font.GothamSemibold
+TextLabel_47.Text = "follow [\"Player username\"]"
+TextLabel_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.TextSize = 12.000
+
+TextLabel_48.Parent = ScrollingFrame
+TextLabel_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.BackgroundTransparency = 1.000
+TextLabel_48.Position = UDim2.new(0.215988964, 0, 8.62952137, 0)
+TextLabel_48.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_48.Font = Enum.Font.GothamSemibold
+TextLabel_48.Text = "unfollow [\"Player username\"]"
+TextLabel_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.TextSize = 12.000
+
+TextLabel_49.Parent = ScrollingFrame
+TextLabel_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.BackgroundTransparency = 1.000
+TextLabel_49.Position = UDim2.new(0.215988964, 0, 8.81763363, 0)
+TextLabel_49.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_49.Font = Enum.Font.GothamSemibold
+TextLabel_49.Text = "age [\"Player username\"]"
+TextLabel_49.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.TextSize = 12.000
+
+TextLabel_50.Parent = ScrollingFrame
+TextLabel_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.BackgroundTransparency = 1.000
+TextLabel_50.Position = UDim2.new(0.215988964, 0, 9.00574589, 0)
+TextLabel_50.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_50.Font = Enum.Font.GothamSemibold
+TextLabel_50.Text = "respawn [\"Player username\"]"
+TextLabel_50.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.TextSize = 12.000
+
+TextLabel_51.Parent = ScrollingFrame
+TextLabel_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_51.BackgroundTransparency = 1.000
+TextLabel_51.Position = UDim2.new(0.215988964, 0, 9.19385719, 0)
+TextLabel_51.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_51.Font = Enum.Font.GothamSemibold
+TextLabel_51.Text = "btools"
+TextLabel_51.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_51.TextSize = 12.000
+
+TextLabel_52.Parent = ScrollingFrame
+TextLabel_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_52.BackgroundTransparency = 1.000
+TextLabel_52.Position = UDim2.new(0.215988964, 0, 9.3819685, 0)
+TextLabel_52.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_52.Font = Enum.Font.GothamSemibold
+TextLabel_52.Text = "spin [\"Player username\"]"
+TextLabel_52.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_52.TextSize = 12.000
+
+TextLabel_53.Parent = ScrollingFrame
+TextLabel_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_53.BackgroundTransparency = 1.000
+TextLabel_53.Position = UDim2.new(0.215988964, 0, 9.57008076, 0)
+TextLabel_53.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_53.Font = Enum.Font.GothamSemibold
+TextLabel_53.Text = "uspin [\"Player username\"]"
+TextLabel_53.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_53.TextSize = 12.000
+
+TextLabel_54.Parent = ScrollingFrame
+TextLabel_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_54.BackgroundTransparency = 1.000
+TextLabel_54.Position = UDim2.new(0.215988964, 0, 9.75819302, 0)
+TextLabel_54.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_54.Font = Enum.Font.GothamSemibold
+TextLabel_54.Text = "to [\"Player username\"]"
+TextLabel_54.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_54.TextSize = 12.000
+
+TextLabel_55.Parent = ScrollingFrame
+TextLabel_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_55.BackgroundTransparency = 1.000
+TextLabel_55.Position = UDim2.new(0.215988964, 0, 9.94630432, 0)
+TextLabel_55.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_55.Font = Enum.Font.GothamSemibold
+TextLabel_55.Text = "fullbright"
+TextLabel_55.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_55.TextSize = 12.000
+
+TextLabel_56.Parent = ScrollingFrame
+TextLabel_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_56.BackgroundTransparency = 1.000
+TextLabel_56.Position = UDim2.new(0.215988964, 0, 10.1344166, 0)
+TextLabel_56.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_56.Font = Enum.Font.GothamSemibold
+TextLabel_56.Text = "swim "
+TextLabel_56.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_56.TextSize = 12.000
+
+TextLabel_57.Parent = ScrollingFrame
+TextLabel_57.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_57.BackgroundTransparency = 1.000
+TextLabel_57.Position = UDim2.new(0.215988964, 0, 10.3225279, 0)
+TextLabel_57.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_57.Font = Enum.Font.GothamSemibold
+TextLabel_57.Text = "unswim"
+TextLabel_57.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_57.TextSize = 12.000
+
+TextLabel_58.Parent = ScrollingFrame
+TextLabel_58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_58.BackgroundTransparency = 1.000
+TextLabel_58.Position = UDim2.new(0.215988964, 0, 10.5106411, 0)
+TextLabel_58.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_58.Font = Enum.Font.GothamSemibold
+TextLabel_58.Text = "fly"
+TextLabel_58.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_58.TextSize = 12.000
+
+TextLabel_59.Parent = ScrollingFrame
+TextLabel_59.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_59.BackgroundTransparency = 1.000
+TextLabel_59.Position = UDim2.new(0.215988964, 0, 10.6987534, 0)
+TextLabel_59.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_59.Font = Enum.Font.GothamSemibold
+TextLabel_59.Text = "unfly"
+TextLabel_59.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_59.TextSize = 12.000
+
+TextLabel_60.Parent = ScrollingFrame
+TextLabel_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_60.BackgroundTransparency = 1.000
+TextLabel_60.Position = UDim2.new(0.215988964, 0, 10.8868647, 0)
+TextLabel_60.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_60.Font = Enum.Font.GothamSemibold
+TextLabel_60.Text = "flyspeed [\"Amount\"]"
+TextLabel_60.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_60.TextSize = 12.000
+
+TextLabel_61.Parent = ScrollingFrame
+TextLabel_61.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_61.BackgroundTransparency = 1.000
+TextLabel_61.Position = UDim2.new(0.215988964, 0, 11.0749769, 0)
+TextLabel_61.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_61.Font = Enum.Font.GothamSemibold
+TextLabel_61.Text = "nuke"
+TextLabel_61.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_61.TextSize = 12.000
+
+TextLabel_62.Parent = ScrollingFrame
+TextLabel_62.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_62.BackgroundTransparency = 1.000
+TextLabel_62.Position = UDim2.new(0.215988964, 0, 11.2630892, 0)
+TextLabel_62.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_62.Font = Enum.Font.GothamSemibold
+TextLabel_62.Text = "mutechat"
+TextLabel_62.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_62.TextSize = 12.000
+
+TextLabel_63.Parent = ScrollingFrame
+TextLabel_63.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_63.BackgroundTransparency = 1.000
+TextLabel_63.Position = UDim2.new(0.215988964, 0, 11.4512005, 0)
+TextLabel_63.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_63.Font = Enum.Font.GothamSemibold
+TextLabel_63.Text = "fov [\"Amount\"]"
+TextLabel_63.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_63.TextSize = 12.000
+
+TextLabel_64.Parent = ScrollingFrame
+TextLabel_64.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_64.BackgroundTransparency = 1.000
+TextLabel_64.Position = UDim2.new(0.215988964, 0, 11.6393127, 0)
+TextLabel_64.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_64.Font = Enum.Font.GothamSemibold
+TextLabel_64.Text = "noclip"
+TextLabel_64.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_64.TextSize = 12.000
+
+TextLabel_65.Parent = ScrollingFrame
+TextLabel_65.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_65.BackgroundTransparency = 1.000
+TextLabel_65.Position = UDim2.new(0.215988964, 0, 11.827424, 0)
+TextLabel_65.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_65.Font = Enum.Font.GothamSemibold
+TextLabel_65.Text = "clip"
+TextLabel_65.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_65.TextSize = 12.000
+
+TextLabel_66.Parent = ScrollingFrame
+TextLabel_66.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_66.BackgroundTransparency = 1.000
+TextLabel_66.Position = UDim2.new(0.215988964, 0, 12.0155363, 0)
+TextLabel_66.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_66.Font = Enum.Font.GothamSemibold
+TextLabel_66.Text = "spam [\"Message\"]"
+TextLabel_66.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_66.TextSize = 12.000
+
+TextLabel_67.Parent = ScrollingFrame
+TextLabel_67.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_67.BackgroundTransparency = 1.000
+TextLabel_67.Position = UDim2.new(0.215988964, 0, 12.2036486, 0)
+TextLabel_67.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_67.Font = Enum.Font.GothamSemibold
+TextLabel_67.Text = "rejoin"
+TextLabel_67.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_67.TextSize = 12.000
+
+TextLabel_68.Parent = ScrollingFrame
+TextLabel_68.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_68.BackgroundTransparency = 1.000
+TextLabel_68.Position = UDim2.new(0.215988964, 0, 12.3917608, 0)
+TextLabel_68.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_68.Font = Enum.Font.GothamSemibold
+TextLabel_68.Text = "serverhop"
+TextLabel_68.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_68.TextSize = 12.000
+
+TextLabel_69.Parent = ScrollingFrame
+TextLabel_69.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_69.BackgroundTransparency = 1.000
+TextLabel_69.Position = UDim2.new(0.215988964, 0, 12.5798731, 0)
+TextLabel_69.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_69.Font = Enum.Font.GothamSemibold
+TextLabel_69.Text = "rank [\"Player username\"]"
+TextLabel_69.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_69.TextSize = 12.000
+
+TextLabel_70.Parent = ScrollingFrame
+TextLabel_70.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_70.BackgroundTransparency = 1.000
+TextLabel_70.Position = UDim2.new(0.215988964, 0, 12.7679844, 0)
+TextLabel_70.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_70.Font = Enum.Font.GothamSemibold
+TextLabel_70.Text = "unrank"
+TextLabel_70.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_70.TextSize = 12.000
+
+TextLabel_71.Parent = ScrollingFrame
+TextLabel_71.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_71.BackgroundTransparency = 1.000
+TextLabel_71.Position = UDim2.new(0.215988964, 0, 12.9560966, 0)
+TextLabel_71.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_71.Font = Enum.Font.GothamSemibold
+TextLabel_71.Text = "orbit [\"Player username\"]"
+TextLabel_71.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_71.TextSize = 12.000
+
+TextLabel_72.Parent = ScrollingFrame
+TextLabel_72.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_72.BackgroundTransparency = 1.000
+TextLabel_72.Position = UDim2.new(0.215988964, 0, 13.1442089, 0)
+TextLabel_72.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_72.Font = Enum.Font.GothamSemibold
+TextLabel_72.Text = "unorbit [\"Player username\"]"
+TextLabel_72.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_72.TextSize = 12.000
+
+TextLabel_73.Parent = ScrollingFrame
+TextLabel_73.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_73.BackgroundTransparency = 1.000
+TextLabel_73.Position = UDim2.new(0.215988964, 0, 13.3323212, 0)
+TextLabel_73.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_73.Font = Enum.Font.GothamSemibold
+TextLabel_73.Text = "freecam"
+TextLabel_73.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_73.TextSize = 12.000
+
+TextLabel_74.Parent = ScrollingFrame
+TextLabel_74.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_74.BackgroundTransparency = 1.000
+TextLabel_74.Position = UDim2.new(0.215988964, 0, 13.5204325, 0)
+TextLabel_74.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_74.Font = Enum.Font.GothamSemibold
+TextLabel_74.Text = "equiptools [\"Player username\"]"
+TextLabel_74.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_74.TextSize = 12.000
+
+TextLabel_75.Parent = ScrollingFrame
+TextLabel_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_75.BackgroundTransparency = 1.000
+TextLabel_75.Position = UDim2.new(0.215988964, 0, 13.7085438, 0)
+TextLabel_75.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_75.Font = Enum.Font.GothamSemibold
+TextLabel_75.Text = "hidename"
+TextLabel_75.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_75.TextSize = 12.000
+
+TextLabel_76.Parent = ScrollingFrame
+TextLabel_76.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_76.BackgroundTransparency = 1.000
+TextLabel_76.Position = UDim2.new(0.215988964, 0, 13.896656, 0)
+TextLabel_76.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_76.Font = Enum.Font.GothamSemibold
+TextLabel_76.Text = "showname"
+TextLabel_76.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_76.TextSize = 12.000
+
+TextLabel_77.Parent = ScrollingFrame
+TextLabel_77.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_77.BackgroundTransparency = 1.000
+TextLabel_77.Position = UDim2.new(0.215988964, 0, 14.0847683, 0)
+TextLabel_77.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_77.Font = Enum.Font.GothamSemibold
+TextLabel_77.Text = "loop [\"Command\"]"
+TextLabel_77.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_77.TextSize = 12.000
+
+TextLabel_78.Parent = ScrollingFrame
+TextLabel_78.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_78.BackgroundTransparency = 1.000
+TextLabel_78.Position = UDim2.new(0.215988964, 0, 14.2728815, 0)
+TextLabel_78.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_78.Font = Enum.Font.GothamSemibold
+TextLabel_78.Text = "unloop [\"Command\"]"
+TextLabel_78.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_78.TextSize = 12.000
+
+TextLabel_79.Parent = ScrollingFrame
+TextLabel_79.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_79.BackgroundTransparency = 1.000
+TextLabel_79.Position = UDim2.new(0.215988964, 0, 14.4609938, 0)
+TextLabel_79.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_79.Font = Enum.Font.GothamSemibold
+TextLabel_79.Text = "grabknife"
+TextLabel_79.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_79.TextSize = 12.000
+
+TextLabel_80.Parent = ScrollingFrame
+TextLabel_80.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_80.BackgroundTransparency = 1.000
+TextLabel_80.Position = UDim2.new(0.215988964, 0, 14.6491041, 0)
+TextLabel_80.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_80.Font = Enum.Font.GothamSemibold
+TextLabel_80.Text = "utg"
+TextLabel_80.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_80.TextSize = 12.000
+
+TextLabel_81.Parent = ScrollingFrame
+TextLabel_81.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_81.BackgroundTransparency = 1.000
+TextLabel_81.Position = UDim2.new(0.215988964, 0, 14.8372154, 0)
+TextLabel_81.Size = UDim2.new(0, 157, 0, 46)
+TextLabel_81.Font = Enum.Font.GothamSemibold
+TextLabel_81.Text = "gravitygun"
+TextLabel_81.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_81.TextSize = 12.000
+
+TextBox.Parent = CmdConnectionBoxLOLXD
+TextBox.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextBox.BackgroundTransparency = 0.400
+TextBox.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.165242344, 0, 0.151214972, 0)
+TextBox.Size = UDim2.new(0.669515669, 0, 0.0815496147, 0)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+OpenClsoseSequnceFolder.Name = "OpenClsoseSequnceFolder"
+OpenClsoseSequnceFolder.Parent = QuantomX
+
+Frame1.Name = "Frame1"
+Frame1.Parent = OpenClsoseSequnceFolder
+Frame1.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame1.BackgroundTransparency = 0.400
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(0, 0, -0.00981996767, 0)
+Frame1.Size = UDim2.new(1, 0, 0.0572831407, 0)
+Frame1.Visible = false
+
+CommandBarLOLXD_3.Name = "CommandBarLOLXD"
+CommandBarLOLXD_3.Parent = Frame1
+CommandBarLOLXD_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarLOLXD_3.BackgroundTransparency = 1.000
+CommandBarLOLXD_3.Position = UDim2.new(0.0460218415, 0, -0.326086938, 0)
+CommandBarLOLXD_3.Size = UDim2.new(0.898595929, 0, 1.60869563, 0)
+CommandBarLOLXD_3.Font = Enum.Font.SourceSans
+CommandBarLOLXD_3.Text = "Welcome to Quantum X admin, thank you for using."
+CommandBarLOLXD_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarLOLXD_3.TextSize = 30.000
+CommandBarLOLXD_3.TextXAlignment = Enum.TextXAlignment.Left
+
+CommandBarDisplayInput_5.Name = "CommandBarDisplayInput"
+CommandBarDisplayInput_5.Parent = Frame1
+CommandBarDisplayInput_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_5.BackgroundTransparency = 1.000
+CommandBarDisplayInput_5.Position = UDim2.new(0.0226209015, 0, -0.054641597, 0)
+CommandBarDisplayInput_5.Size = UDim2.new(0.041341655, 0, 1.10869563, 0)
+CommandBarDisplayInput_5.Font = Enum.Font.SourceSans
+CommandBarDisplayInput_5.Text = ":"
+CommandBarDisplayInput_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_5.TextSize = 30.000
+CommandBarDisplayInput_5.TextWrapped = true
+
+Frame2.Name = "Frame2"
+Frame2.Parent = OpenClsoseSequnceFolder
+Frame2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame2.BackgroundTransparency = 0.400
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(0, 0, -0.0278232414, 0)
+Frame2.Size = UDim2.new(1, 0, 0.0572831407, 0)
+Frame2.Visible = false
+
+CommandBarLOLXD_4.Name = "CommandBarLOLXD"
+CommandBarLOLXD_4.Parent = Frame2
+CommandBarLOLXD_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarLOLXD_4.BackgroundTransparency = 1.000
+CommandBarLOLXD_4.Position = UDim2.new(0.0460218415, 0, -0.326086938, 0)
+CommandBarLOLXD_4.Size = UDim2.new(0.898595929, 0, 1.60869563, 0)
+CommandBarLOLXD_4.Font = Enum.Font.SourceSans
+CommandBarLOLXD_4.Text = "Welcome to Quantum X admin, thank you for using."
+CommandBarLOLXD_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarLOLXD_4.TextSize = 30.000
+CommandBarLOLXD_4.TextXAlignment = Enum.TextXAlignment.Left
+
+CommandBarDisplayInput_6.Name = "CommandBarDisplayInput"
+CommandBarDisplayInput_6.Parent = Frame2
+CommandBarDisplayInput_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_6.BackgroundTransparency = 1.000
+CommandBarDisplayInput_6.Position = UDim2.new(0.0226209015, 0, -0.054641597, 0)
+CommandBarDisplayInput_6.Size = UDim2.new(0.041341655, 0, 1.10869563, 0)
+CommandBarDisplayInput_6.Font = Enum.Font.SourceSans
+CommandBarDisplayInput_6.Text = ":"
+CommandBarDisplayInput_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_6.TextSize = 30.000
+CommandBarDisplayInput_6.TextWrapped = true
+
+Frame3.Name = "Frame3"
+Frame3.Parent = OpenClsoseSequnceFolder
+Frame3.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame3.BackgroundTransparency = 0.400
+Frame3.BorderSizePixel = 0
+Frame3.Position = UDim2.new(0, 0, -0.0441898555, 0)
+Frame3.Size = UDim2.new(1, 0, 0.0572831407, 0)
+Frame3.Visible = false
+
+CommandBarLOLXD_5.Name = "CommandBarLOLXD"
+CommandBarLOLXD_5.Parent = Frame3
+CommandBarLOLXD_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarLOLXD_5.BackgroundTransparency = 1.000
+CommandBarLOLXD_5.Position = UDim2.new(0.0460218415, 0, -0.326086938, 0)
+CommandBarLOLXD_5.Size = UDim2.new(0.898595929, 0, 1.60869563, 0)
+CommandBarLOLXD_5.Font = Enum.Font.SourceSans
+CommandBarLOLXD_5.Text = "Welcome to Quantum X admin, thank you for using."
+CommandBarLOLXD_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarLOLXD_5.TextSize = 30.000
+CommandBarLOLXD_5.TextXAlignment = Enum.TextXAlignment.Left
+
+CommandBarDisplayInput_7.Name = "CommandBarDisplayInput"
+CommandBarDisplayInput_7.Parent = Frame3
+CommandBarDisplayInput_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_7.BackgroundTransparency = 1.000
+CommandBarDisplayInput_7.Position = UDim2.new(0.0226209015, 0, -0.054641597, 0)
+CommandBarDisplayInput_7.Size = UDim2.new(0.041341655, 0, 1.10869563, 0)
+CommandBarDisplayInput_7.Font = Enum.Font.SourceSans
+CommandBarDisplayInput_7.Text = ":"
+CommandBarDisplayInput_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandBarDisplayInput_7.TextSize = 30.000
+CommandBarDisplayInput_7.TextWrapped = true
+
+-- Scripts:
+
+local function PKAMDNZ_fake_script() -- CommandBarLOLXD_2.LocalScript 
+	local script = Instance.new('LocalScript', CommandBarLOLXD_2)
+
+	while true do
+		wait(0.01)
+		script.Parent.Text =  CommandBar.Input.Text.."I"
+	end
+end
+coroutine.wrap(PKAMDNZ_fake_script)()
+local function ONGCPAM_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local object = script.Parent.Parent.Parent
+		object:TweenPosition(UDim2.new(0,0,-0.2,0))
+	end)
+end
+coroutine.wrap(ONGCPAM_fake_script)()
+local function ZUSD_fake_script() -- NotifictionBoxLOLXD.LocalScript 
+	local script = Instance.new('LocalScript', NotifictionBoxLOLXD)
+
+	script.Parent.Visible = true
+	local object = script.Parent
+	object:TweenPosition(UDim2.new(0,0,0.89,0))
+	wait(2)
+	local object = script.Parent
+	object:TweenPosition(UDim2.new(0,0,-0.2,0))
+end
+coroutine.wrap(ZUSD_fake_script)()
+local function GHSVJ_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	local scroll = script.Parent.Parent.CmdBack.ScrollingFrame -- CHANGE THIS TO YOUR SCROLLING FRAME
+	local textBox = script.Parent -- CHANGE THIS TO YOUR TEXT BOX
+	
+	textBox.Changed:Connect(function() -- when the text is changed
+		local text = textBox.Text:lower() -- lowercase search bar text
+		if text ~= "" then -- if it has text
+			local buttons = scroll:GetDescendants() -- all of the buttons
+			for _, button in pairs(buttons) do -- loops through the buttons
+				if button:IsA("TextLabel") then -- if it's a button
+					local buttonText = button.Text:lower() -- lowercase button text
+					if string.find(buttonText, text) then -- if search bar text is found in the button's text
+						button.Visible = true -- shows button
+					else -- otherwise
+						button.Visible = false -- hides button
+					end
+				end
+			end
+		else -- if it's empty
+			local buttons = scroll:GetDescendants() -- all buttons
+			for _, button in pairs(buttons) do -- loops through buttons
+				if button:IsA("TextLabel") then -- if it's a button
+					button.Visible = true -- shows button
+				end
+			end
+		end
+	
+	end)
+end
+coroutine.wrap(GHSVJ_fake_script)()
+local function UELYI_fake_script() -- QuantomX.OpenSemiColonGui 
+	local script = Instance.new('LocalScript', QuantomX)
+
+	--local Player = game.Players.LocalPlayer
+	--local Mouse = Player:GetMouse()
+	
+	--Mouse.KeyDown:connect(function(Key)
+	--	Key = Key:lower()
+	--	if Key == ';' then
+			--script.Parent.CommandBarLOLXD.Visible = true
+		--	local object = script.Parent.CommandBarLOLXD
+	
+	--		object:TweenPosition(UDim2.new(0,0,0.01,0))
+	--	end
+	--end)
+	----------------
+	local Player = game.Players.LocalPlayer
+	local Mouse = Player:GetMouse()
+	
+	Mouse.KeyDown:connect(function(Key)
+		Key = Key:lower()
+		if Key == ';' then
+			if script.Parent.CommandBarLOLXD.Visible == false then
+				script.Parent.OpenClsoseSequnceFolder.Frame3.Visible = true
+				wait(0.01)
+				script.Parent.OpenClsoseSequnceFolder.Frame3.Visible = false
+				script.Parent.OpenClsoseSequnceFolder.Frame2.Visible = true
+				wait(0.01)
+				script.Parent.OpenClsoseSequnceFolder.Frame2.Visible = false
+				script.Parent.OpenClsoseSequnceFolder.Frame1.Visible = true
+				wait(0.01)
+				script.Parent.OpenClsoseSequnceFolder.Frame1.Visible = false
+				script.Parent.CommandBarLOLXD.Visible = true
+			else
+				
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(UELYI_fake_script)()
+local function VEWUH_fake_script() -- QuantomX.CloseEnterGUi 
+	local script = Instance.new('LocalScript', QuantomX)
+
+	--local object = script.Parent.CommandBarLOLXD
+	--object:TweenPosition(UDim2.new(0,0,-0.2,0))
+	local UserInputService = game:GetService('UserInputService')
+	UserInputService.InputBegan:Connect(function(input, gameProcessedEvent) -- when player press a key or click or anything like this
+		if input.UserInputType == Enum.UserInputType.Keyboard then -- if the input type is a keyboard then
+			if input.KeyCode == Enum.KeyCode.Return then
+				if script.Parent.CommandBarLOLXD.Visible == true then
+					script.Parent.CommandBarLOLXD.Visible = false
+					script.Parent.OpenClsoseSequnceFolder.Frame1.Visible = true
+					wait(0.01)
+					script.Parent.OpenClsoseSequnceFolder.Frame1.Visible = false
+					script.Parent.OpenClsoseSequnceFolder.Frame2.Visible = true
+					wait(0.01)
+					script.Parent.OpenClsoseSequnceFolder.Frame2.Visible = false
+					script.Parent.OpenClsoseSequnceFolder.Frame3.Visible = true
+					wait(0.01)
+					script.Parent.OpenClsoseSequnceFolder.Frame3.Visible = false
+				else
+					
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(VEWUH_fake_script)()
+local function COQD_fake_script() -- QuantomX.CloseMouseGui 
+	local script = Instance.new('LocalScript', QuantomX)
+
+	local m = game.Players.LocalPlayer:GetMouse()
+	
+	
+	m.Button1Down:Connect(function()
+		if script.Parent.CommandBarLOLXD.Visible == true then
+			script.Parent.CommandBarLOLXD.Visible = false
+			script.Parent.OpenClsoseSequnceFolder.Frame1.Visible = true
+			wait(0.01)
+			script.Parent.OpenClsoseSequnceFolder.Frame1.Visible = false
+			script.Parent.OpenClsoseSequnceFolder.Frame2.Visible = true
+			wait(0.01)
+			script.Parent.OpenClsoseSequnceFolder.Frame2.Visible = false
+			script.Parent.OpenClsoseSequnceFolder.Frame3.Visible = true
+			wait(0.01)
+			script.Parent.OpenClsoseSequnceFolder.Frame3.Visible = false
+		else
+	
+		end
+	end)
+	
+end
+coroutine.wrap(COQD_fake_script)()
+local function IGKLL_fake_script() -- QuantomX.AntiDestoryGui 
+	local script = Instance.new('LocalScript', QuantomX)
+
+	QuantomX.Parent = game.CoreGui
+end
+coroutine.wrap(IGKLL_fake_script)()
+local function KFTZ_fake_script() -- CommandBarLOLXD_3.LocalScript 
+	local script = Instance.new('LocalScript', CommandBarLOLXD_3)
+
+	while true do
+		wait(0.01)
+		script.Parent.Text =  CommandBar.Input.Text.."I"
+	end
+end
+coroutine.wrap(KFTZ_fake_script)()
+local function HVUIOQ_fake_script() -- CommandBarLOLXD_4.LocalScript 
+	local script = Instance.new('LocalScript', CommandBarLOLXD_4)
+
+	while true do
+		wait(0.01)
+		script.Parent.Text =  CommandBar.Input.Text.."I"
+	end
+end
+coroutine.wrap(HVUIOQ_fake_script)()
+local function VYYJ_fake_script() -- CommandBarLOLXD_5.LocalScript 
+	local script = Instance.new('LocalScript', CommandBarLOLXD_5)
+
+	while true do
+		wait(0.01)
+		script.Parent.Text =  CommandBar.Input.Text.."I"
+	end
+end
+coroutine.wrap(VYYJ_fake_script)()
